@@ -1,0 +1,49 @@
+body{
+    background-image: url("wp12706881-4k-minimalist-landscape-wallpapers.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.login_block{
+    position:relative;
+    height: 400px;
+    width:400px;
+    background: rgba(0,0,0,0.1);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.2) ;
+    border-radius: 50px;
+    border:2px solid rgba(255, 255, 255,0.5);
+    border-right:2px solid rgba(255, 255, 255,0.2) ;
+    border-bottom: 2px solid rgba(255, 255, 255,0.2);
+    backdrop-filter: blur(8px);
+    padding-top: 1.2em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+.back_botton{
+    display:inline-block;
+    color: aliceblue;
+    position: absolute;
+    top:2em;
+    left:2em;
+}
+.login_block .msg{
+    font-size: larger;
+    position: absolute;
+    padding-left: 20vh;
+    padding-top: 20px;
+    letter-spacing: 0.25em;
+    font-weight: 900;
+    color: #fab005;
+    text-transform: uppercase;
+    text-align: center;
+}
+.heading{
+    position: absolute;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top:100px
+}
