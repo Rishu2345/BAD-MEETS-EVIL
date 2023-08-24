@@ -240,5 +240,69 @@ body{
   color:rgb(220, 219, 219);
   padding-left: 30%;
 }
+/* 24-08-2023 by RS */
+/* css for footer  */
+.Hpage_footer{
+  transform:translateY(230px);
+  position: relative;
+  display:flex;
+  height: 150px;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items:center;
+  min-height: 100px;
+  padding: 100px 20vw;
+  background: linear-gradient(#e66465, #9198e5);
+}
+/* curve's CSS  */
+.custom-shape-divider-top-1692858232 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1692858232 svg {
+  position: relative;
+  display: block;
+  width: calc(141% + 1.3px);
+  height: 121px;
+}
+
+.custom-shape-divider-top-1692858232 .shape-fill {
+  fill: #FFFFFF;
+}
+.footer_logo{
+  transition: text-decoration 2s;
+  position: relative;
+  color:lavenderblush;
+  font-size: 2rem;
+  margin-bottom:1em;
+}
+.footer_logo:hover{
+  text-decoration: underline;
+}
+.footer_links{
+  margin-bottom: 1em;
+}
+.footer_links a ,.social_media a{
+  margin:50px;
+  text-decoration: none;
+  color:lavenderblush;
+  transition: font-size 4s;
+
+}
+.footer_links a:hover,.social_media a:hover{
+  font-size: 1.02em;
+  color: #aaa;
+}
+.social_media h2{
+  color:rgba(94, 94, 94, 0.946);
+  text-align: center;
+  font-size:1.8rem;
+  margin-bottom: 0.8em;
+}
 
 
