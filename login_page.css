@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+*{
+    font-family:Akaya Kanadaka;
+    color:aliceblue;
+}
 body{
     background-image: url("wp12706881-4k-minimalist-landscape-wallpapers.jpg");
     display:flex;
@@ -31,7 +37,6 @@ body{
 }
 .login_block .msg{
     font-size: larger;
-    position: absolute;
     padding-left: 20vh;
     padding-top: 20px;
     letter-spacing: 0.25em;
@@ -41,9 +46,54 @@ body{
     text-align: center;
 }
 .heading{
-    position: absolute;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1rem;
     margin-bottom: 20px;
-    top:100px
+}
+/* 25-08-2023 by RS  */
+.input_box input{
+    width:25em;
+    height:2.5em;
+    border-radius:50px;
+    border-color: beige;
+    padding-left: 2em;
+    color:#3A3B3C;
+    margin-bottom: 1.5vh;
+}
+.input_box input:active{
+    border:2px solid rgba(0, 0, 0, 0.723)
+}
+.username ,.password{
+    margin-bottom: 1vh;
+}
+.remember_forgot label{
+    color:#646566;
+    font-size: 1em;
+}
+.for_pass{
+    float :right;
+    color:rgb(64, 64, 241);
+    margin-right: 1vw;
+}
+.for_pass:hover,.register_link p a:hover{
+    color:rgb(64, 155, 241);
+}
+button{
+    margin: 1.5vh;
+    border:none;
+    background-color: #fab005;
+    box-shadow: 2px 2px rgb(64, 155, 241);
+    height: 2.5em;
+    width: 25%;
+    margin-left: 38%;
+    cursor:pointer;
+}
+button:hover{
+    box-shadow: 2.5px 2.5px 5px rgb(64, 155, 241);
+}
+.register_link{
+    text-align: center;
+}
+.register_link p a{
+    color:rgb(64, 64, 241);
 }
