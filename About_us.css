@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Raleway&family=Ubuntu:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Raleway&family=Roboto:wght@300;400&family=Ubuntu:ital,wght@1,300&display=swap');  
+  *{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #8b0000;
+}
+.back_botton a{
+    display:inline-block;
+    color: aliceblue !important;
+    position: absolute;
+    top:2em;
+    left:2em;
+}
+.back_botton :hover{
+    color:rgb(100, 99, 99);
+}
+.title{
+    font-size:3em;
+    color:blanchedalmond;
+    text-decoration:underline;
+    margin:1em;
+    font-family: 'Bungee Spice', cursive;
+}
+.Images{
+    background-color: #FFD700;
+    background-image: url("About-Us-Images-052022-05.png.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:right;
+    height:50vh;
+    padding-top: 15vh;
+}
+.Images .title{
+    font-size: 5em;
+    margin:0;
+    text-align: center;
+}
+.custom-shape-divider-bottom-1693283228 {
+    position: relative;
+    bottom: 72px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1693283228 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 72px;
+}
+
+.custom-shape-divider-bottom-1693283228 .shape-fill {
+    fill: #8b0000;
+}
+.motive{
+    background-color: #006400 !important;
+}
+/* CSS of the founder section  */
+.Workingheads{
+    background-color: rgb(229, 247, 247);
+    margin:0rem;
+    padding:0em;
+}
+.Workingheads .title{
+    background-color: aquamarine;
+    margin:0em;
+    padding:1em;
+    /* padding: 0em 1em 1em 2em; */
+}
+.names{
+    font-size: 1.5em;
+    margin: 1rem;
+    letter-spacing: 0.08em;
+    /* color:#8B0000; */
+    font-family: 'Bungee Spice', cursive;
+    font-weight:900;
+}
+.names:hover{
+    text-decoration: underline;
+}
+.custom-shape-divider-top-1693246125 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    
+}
+
+.custom-shape-divider-top-1693246125 svg {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    height: 87px;
+}
+
+.custom-shape-divider-top-1693246125 .shape-fill {
+    fill: aquamarine;
+}
+.Divya{
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin:20vh; */
+    padding:5vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    background-color: aquamarine;
+    border-radius:20px 20px 0px 0px;
+    
+    /* height:100vh; */
+}
+.Divya img ,.Abhijeet img{
+    border:1.5px solid aqua;
+    position: relative;
+    top:2em;
+    left:3em;
+    ;height:50vh;
+    border-radius:15px;
+    z-index: 5;
+}
+.aboutus_text{
+    margin: 1em;
+    font-size: 1.3em;
+    letter-spacing:0.05em;
+    color:rgb(196, 195, 195)
+}
+.In_short{
+    display:inline-block;
+    position: relative;
+    top:-6em;
+    left:0em;
+    background-color: cornflowerblue;
+    padding:0.8em;
+    padding-left:2.4em;
+    font-size: 1.2em;
+    letter-spacing:0.05em;
+    border:2px solid rgb(71, 76, 223);
+    border-radius:15px;
+    text-align:center;
+    height: 32vh;
+    width:12em;
+    z-index:4;
+}
+.In_short h3{
+    margin:0.5em;
+}
+.In_long{
+    display: inline-block;
+    position:relative;
+    top:7em;
+    left:-1em;
+    background-color:#00CED1 ;
+    padding:0.8em;
+    font-size: 1.2em;
+    letter-spacing:0.05em;
+    border:2px solid rgb(71, 76, 223);
+    border-radius:15px;
+    text-align:center;
+    height:60vh;
+    width:15em;
+    overflow-y:auto;
+    /* width:fit-content; */
+}
+.Exited_gif{
+    background-image: url(one-piece-anime-usagif-animation-19.gif);
+    background-size: cover;
+    background-position: center center;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+.handles{
+    margin:5vh;
+    margin-top: 14vh;
+    margin-left: 20vw;
+    display:inline-flex;
+    align-self: center;
+}
+a{
+    color: rgb(121, 157, 234) ;
+    
+}
+.handles div{
+    margin:5vh;
+}
+.handles h2{
+    padding:5%;
+    padding-top: 7%;
+    text-align: center;
+    width:5ch;
+    color:rgb(102, 97, 97);
+}
+.handles .icons a:hover{
+    color:rgb(195, 192, 192);
+}
+.Abhijeet{
+    padding:20vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    /* background-color: aquamarine; */
+    border-radius:20px 20px 0px 0px;
+}
+.Abhijeet .handles .Exited_gif{
+    background-image: url(anime-boy-excitedly-waiting-with-toy-dsr6fbliurwsnqvp.gif) !important;
+}
+/* Story Block CSS  */
+.story{
+ padding: 1em;
+}
+.story .title{
+    margin-top:0.2em;
+}
+.custom-shape-divider-bottom-1693286372 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693286372 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1693286372 .shape-fill {
+    fill: #006400;
+}
+.motive .title{
+    margin-top: 0;
+}
+.custom-shape-divider-bottom-1693287603 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693287603 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+}
+
+.custom-shape-divider-bottom-1693287603 .shape-fill {
+    fill: aquamarine;
+}
+.Contact_us{
+    background: linear-gradient(#2980b9 ,#2c3e50);
+    text-align: center;
+    color: azure;
+}
+.Contact_us h1{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin:1em;
+    margin-top:0;
+    top:-20px;
+    font-size: 2.5em;
+}
+.Contact_us h1 i{
+    margin-right:0.5em;
+}
